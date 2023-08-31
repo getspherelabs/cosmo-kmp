@@ -5,6 +5,27 @@
 # Architecture
 The app architecture has three layers: a data layer, a domain layer and a UI layer. Cosmo uses [Meteor KMP](https://github.com/getspherelabs/meteor-kmp) to create application using MVI architecture. It provides a unidirectional data flow (UDF), allowing you to handle state changes and propagate them to the UI efficiently.
 
+# Technology
+
+- [Kotlin]()
+- [Kotlin Coroutine]()
+- [Swift]()
+- [Jetpack Compose]()
+- [SwiftUI]()
+- [Ktor]()
+- [SqlDelight]()
+- [Koin]()
+- [Meteor]()
+- [Multiplatform Settings]()
+- [Combine]()
+- [Coil]()
+- [Meteor ViewModel]()
+- [NavigationStack]()
+- [Turbine]()
+- [Ktlint]()
+- [Spotless]()
+- [Jacoco]()
+
 # Modularization
 Modularization is the practice of breaking the concept of a monolithic, one-module codebase into loosely coupled, self contained modules.
 
