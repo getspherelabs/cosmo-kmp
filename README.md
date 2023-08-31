@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/getspherelabs/meteor"><img  alt="Meteor Banner" src="https://github.com/getspherelabs/cosmo-kmp/blob/main/docs/imgs/banner_cosmo_kmp(rounded).png?raw=true"/></a> <br>
+  <a href="https://github.com/getspherelabs/cosmo-kmp"><img  alt="Cosmo Banner" src="https://github.com/getspherelabs/cosmo-kmp/blob/main/docs/imgs/banner_cosmo_kmp(rounded).png?raw=true"/></a> <br>
 </p>
 
 # Architecture
@@ -57,7 +57,7 @@ graph TD;
 # Screenshots
 
 <p align="center">
-  <a href="https://github.com/getspherelabs/meteor"><img  alt="Meteor Banner" src="https://github.com/getspherelabs/cosmo-kmp/blob/main/docs/imgs/screenshots(rounded).png?raw=true"/></a> <br>
+  <a href="https://github.com/getspherelabs/cosmo-kmp"><img  alt="Cosmo Banner" src="https://github.com/getspherelabs/cosmo-kmp/blob/main/docs/imgs/screenshots(rounded).png?raw=true"/></a> <br>
 </p>
   
 # Testing
