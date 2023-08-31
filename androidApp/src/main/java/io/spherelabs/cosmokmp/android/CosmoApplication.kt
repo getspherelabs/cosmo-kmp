@@ -8,7 +8,6 @@ class CosmoApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
-
         initKoin {
             androidContext(this@CosmoApplication)
         }
