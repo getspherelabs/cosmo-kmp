@@ -55,9 +55,9 @@ graph TD;
 ```
 
 # Screenshots
+| Android              | IOS         |
+| ---------------------- | ---------------------- |
+| ![android](docs/imgs/android_screenshot.png) | ![ios](docs/imgs/ios_screenshot.png) |
 
-<p align="center">
-  <a href="https://github.com/getspherelabs/cosmo-kmp"><img  alt="Cosmo Banner" src="https://github.com/getspherelabs/cosmo-kmp/blob/main/docs/imgs/screenshots(rounded).png?raw=true"/></a> <br>
-</p>
   
 # Testing
