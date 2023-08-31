@@ -55,9 +55,13 @@ graph TD;
 ```
 
 # Screenshots
-| Android              | IOS         |
+| Android (Jetpack Compose)              | IOS     (SwiftUI)    |
 | ---------------------- | ---------------------- |
 | ![android](docs/imgs/android_screenshot.png) | ![ios](docs/imgs/ios_screenshot.png) |
 
   
 # Testing
+
+# Setup
+
+You need to use at least Android Studio Flamingo (note: Java 17 is now the minimum version required). Requires XCode 13.2 or later (due to use of new Swift 5.5 concurrency APIs).
