@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="pink_swan">#B4B4B4</color>
+    <color name="dark_gray">#0B0B0B</color>
+    <color name="dark_blue">#341A47</color>
+    <color name="blue">#312937</color>
+    <color name="universe">#16C4C4C4</color>
+    <color name="electric_purple">#BD00FF</color>
+    <color name="silver">#C4C4C4</color>
+    <color name="plum">#D7A6FF</color>
+    <color name="nero">#161616</color>
+    <color name="light_blue">#00FFFF</color>
+</resources>

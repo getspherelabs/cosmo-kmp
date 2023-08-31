@@ -1,0 +1,18 @@
+CREATE TABLE about(
+    id TEXT NOT NULL PRIMARY KEY,
+    name TEXT DEFAULT '',
+    description TEXT DEFAULT '',
+    favouritePlanet TEXT DEFAULT '',
+    interestedIn TEXT DEFAULT '',
+    image TEXT DEFAULT ''
+);
+
+insert:
+INSERT OR REPLACE INTO about(id, name, description, favouritePlanet, interestedIn, image)
+VALUES(?,?,?,?,?,?);
+
+getAboutById:
+SELECT * FROM about WHERE id = ? LIMIT 1;
+
+update:
+UPDATE about SET name = ?, description = ?, favouritePlanet = ?, interestedIn = ?, image = ?;

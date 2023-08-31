@@ -1,0 +1,25 @@
+CREATE TABLE favourite(
+    id TEXT NOT NULL PRIMARY KEY,
+    name TEXT NOT NULL,
+    description TEXT NOT NULL,
+    size TEXT NOT NULL,
+    distanceFromSun TEXT NOT NULL,
+    isFavourite INTEGER DEFAULT 0,
+    createdTimestamp TEXT NOT NULL DEFAULT '0'
+);
+
+insertFavourite:
+INSERT OR REPLACE INTO favourite(id, name, description, size, distanceFromSun, isFavourite, createdTimestamp)
+VALUES (?,?,?,?,?,?,?);
+
+deleteFavourite:
+DELETE FROM favourite WHERE id = ?;
+
+getFavourites:
+SELECT * FROM favourite;
+
+getFavouriteById:
+SELECT * FROM favourite WHERE id = ? LIMIT 1;
+
+isFavourite:
+SELECT isFavourite FROM favourite WHERE id = ? LIMIT 1;

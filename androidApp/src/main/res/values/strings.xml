@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="explore_the_universe">Explore the universe</string>
+    <string name="journey_with_cosmo">Journey through the cosmos with our</string>
+    <string name="get_started">Get Started</string>
+    <string name="i_have_already_account">I have already account</string>
+
+    <string name="sign_up">Sign up</string>
+    <string name="sign_in">Sign in</string>
+    <string name="email">Email Address</string>
+    <string name="your_name">Your name</string>
+    <string name="password">Password</string>
+    <string name="view_all">View All</string>
+    <string name="popular_stars">Popular stars</string>
+    <string name="explore">Explore</string>
+    <string name="discover">Discover</string>
+    <string name="search">Search</string>
+    <string name="favourite">Favourite</string>
+    <string name="setting">Setting</string>
+    <string name="about">About</string>
+    <string name="articles">Articles</string>
+    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</string>
+</resources>
