@@ -62,6 +62,10 @@ graph TD;
   
 # Testing
 
+With a testable app architecture, the code follows a structure that allows you to easily test different parts of it in isolation. Testable architectures have other advantages, such as better readability, maintainability, scalability, and reusability.
+
+Unit tests for the data layer, especially repositories. Most of the data layer should be platform-independent.
+
 # Setup
 
 You need to use at least Android Studio Flamingo (note: Java 17 is now the minimum version required). Requires XCode 13.2 or later (due to use of new Swift 5.5 concurrency APIs).
