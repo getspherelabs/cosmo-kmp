@@ -58,14 +58,11 @@ fun initKoin(declaration: KoinAppDeclaration = {}) =
 
 fun initKoin() = initKoin() {}
 
-
 val discoverFeatureModule = module {
     single { DiscoverReducer() }
     single { ArticleMiddleware(get()) }
     single { PopularPlanetsMiddleware(get()) }
 }
-
-
 
 val favouriteFeatureModule = module {
     single { FavouriteReducer() }

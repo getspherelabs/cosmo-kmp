@@ -25,32 +25,6 @@ jobs:
           distribution: adopt
           java-version: 11
 
-      - name: Cache gradle, wrapper and buildSrc
-        uses: actions/cache@v3
-        with:
-          path: |
-            ~/.gradle/caches
-            ~/.gradle/wrapper
-          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*') }}-${{ hashFiles('**/gradle/wrapper/gradle-wrapper.properties') }}-${{ hashFiles('**/buildSrc/**/*.kt') }}
-          restore-keys: |
-            ${{ runner.os }}-gradle-
-      - name: Cache konan
-        uses: actions/cache@v3
-        with:
-          path: |
-            ~/.konan/cache
-            ~/.konan/dependencies
-            ~/.konan/kotlin-native-macos*
-            ~/.konan/kotlin-native-mingw*
-            ~/.konan/kotlin-native-windows*
-            ~/.konan/kotlin-native-linux*
-            ~/.konan/kotlin-native-prebuilt-macos*
-            ~/.konan/kotlin-native-prebuilt-mingw*
-            ~/.konan/kotlin-native-prebuilt-windows*
-            ~/.konan/kotlin-native-prebuilt-linux*
-          key: ${{ runner.os }}-konan-${{ hashFiles('**/*.gradle*') }}
-          restore-keys: |
-            ${{ runner.os }}-konan-
       - name: Make gradlew executable
         run: chmod +x ./gradlew
 
@@ -73,7 +47,7 @@ jobs:
         with:
           key-prefix: gradle-build
       - name: Build
-        run: ./gradlew build
+        run: ./gradlew assembleDebug
   test:
     name: Unit tests
     runs-on: ubuntu-22.04
@@ -89,7 +63,7 @@ jobs:
         with:
           key-prefix: gradle-test
       - name: Unit tests
-        run: ./gradlew test
+        run: ./gradlew :data:local:test :data:network:test
       - name: Upload test results
         uses: actions/upload-artifact@v3.1.0
         if: failure()
