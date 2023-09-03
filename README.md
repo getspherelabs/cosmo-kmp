@@ -68,4 +68,6 @@ Unit tests for the data layer, especially repositories. Most of the data layer s
 
 # Setup
 
-You need to use at least Android Studio Flamingo (note: Java 17 is now the minimum version required). Requires XCode 13.2 or later (due to use of new Swift 5.5 concurrency APIs).
+To build and run the Android client, you must use Android Studio Arctic Fox or a newer version.
+
+For iOS development, you'll need XCode 13.2 or a later version, primarily because of the utilization of the new Swift 5.5 concurrency APIs. When you open the iOS project, please ensure that you open the `.xcworkspace` file instead of the `.xcodeproj` file.
